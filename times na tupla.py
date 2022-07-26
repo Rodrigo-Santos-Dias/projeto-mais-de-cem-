@@ -1,0 +1,10 @@
+lista_times ='Corinthians','Palmeiras','Santos','Grêmio','Cruzeiro','Flamengo','Vasco','Chapecoense','Atletico','Botafogo','Atlético-PR','Bahia','Sâo Paulo','Fluminense','Sport Recife','EC Vitòria','Coritiba','Avaì','Ponte Preta','Atletico-GO'
+print('=-'*15)
+print(f' Lista de times do brasileirâo: {lista_times}')
+print('=-'*15)
+print(f'Os cinco primeiros são {lista_times[0:5]}')
+print('=-'*15)
+print(f'Os quatro ultimos são {lista_times[16:]}')
+print('=-'*15)
+print(f'Lista do brasileirâo em ordem alfabetica{sorted(lista_times)}')
+print(f'{lista_times[8-1]} Esta na 8ª posiçâo')
